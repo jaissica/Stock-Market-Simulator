@@ -82,29 +82,29 @@ In the View for GUI  :
 
 We have package inside view package named guiview which has View for GUI.
 
-‚Ä¢	Inside guiview package we have another package buttons which consists of class and Interface  which help us create Frames/panel which have only buttons in them.
+•	Inside guiview package we have another package buttons which consists of class and Interface  which help us create Frames/panel which have only buttons in them.
 
 1.	It has a ButtonsView Interface which mentions all the methods that classes implementing it should have. Each class implementing this interface should have 
 a resetFocus method which is used to bring focus to the component and a addActionListener method which processes the ActionEvent should implement ActionListner interface.
 
-‚Ä¢	Inside guiview package we have another package charts which consists of class and Interface that help us create Bar graph for Portfolio performance option.
+•	Inside guiview package we have another package charts which consists of class and Interface that help us create Bar graph for Portfolio performance option.
 
-1	‚ÄúIBarChart‚Äù is an Interface which mentions all the methods that classes implementing it should have.Each class implementing this interface should have a resetFocus method which is used to bring focus to the component and a addActionListener method which processes the ActionEvent should implement ActionListner interface.
+1	“IBarChart” is an Interface which mentions all the methods that classes implementing it should have.Each class implementing this interface should have a resetFocus method which is used to bring focus to the component and a addActionListener method which processes the ActionEvent should implement ActionListner interface.
 2	BarGraphImpl is a concrete class that implements IBarChart and creates a bar graph for performance portfolio.
 
-‚Ä¢	Inside guiview package we have another package fileSelection which consists of class and Interface that help us show option to choose file from a path.
+•	Inside guiview package we have another package fileSelection which consists of class and Interface that help us show option to choose file from a path.
 
-1.	‚ÄúIFileSelection‚Äù is an interface that mentions all the methods that the classes implementing it should have. getInput method returns filePath, getFileChooser returns user selection, setHint returns success or error message if needed and a addActionListener method which processes the ActionEvent should implement ActionListner interface.
+1.	“IFileSelection” is an interface that mentions all the methods that the classes implementing it should have. getInput method returns filePath, getFileChooser returns user selection, setHint returns success or error message if needed and a addActionListener method which processes the ActionEvent should implement ActionListner interface.
 
 2.	fileSelect is a concrete class that implements IFileSelection and displays options from where user can choose path.
 
-‚Ä¢	Inside guiview package we have another package textField which consists of class and Interface which help us create Frames/panel which have both text fields in them and need to take input from the user.
+•	Inside guiview package we have another package textField which consists of class and Interface which help us create Frames/panel which have both text fields in them and need to take input from the user.
 
 1.	It has a TextFieldView Interface which mentions all the methods that classes implementing it should have. Each class implementing this interface should have 
 a resetFocus method which is used to bring focus to the component, addActionListener method which processes the ActionEvent should implement ActionListner interface, getInput method which returns ArrayList of inputs got from various Text Fields, errorMessage method which displays error success message on the panel, clearField method method which sets all the text field view to empty and hideMainButton which disables the Main button of the text field if needed.
 
 
-‚Ä¢	Inside guiview package we have another package HelperClass which consists of class consists of various helper methods required to operate the GUI like providing Colander View to take input dates, to dispose frames and to validate the input that we get from the user.
+•	Inside guiview package we have another package HelperClass which consists of class consists of various helper methods required to operate the GUI like providing Colander View to take input dates, to dispose frames and to validate the input that we get from the user.
 
 
 Model for GUI:
