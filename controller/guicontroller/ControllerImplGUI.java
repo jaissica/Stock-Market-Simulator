@@ -10,7 +10,6 @@ import view.guiview.buttons.CreatePortfolioOptionsFlexible;
 import view.guiview.charts.BarGraphImpl;
 import view.guiview.fileselection.IFileSelection;
 import view.guiview.fileselection.FileSelect;
-
 import java.awt.Component;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -25,7 +24,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
 import view.guiview.helperclass.HelperClass;
 import view.guiview.textfield.DCASubPanelEqualWeightWithEndDate;
 import view.guiview.textfield.DCASubPanelEqualWeights;
@@ -47,7 +45,6 @@ import view.guiview.textfield.PortfolioValPan;
 import view.guiview.textfield.PortfolioPerformancePanel;
 import view.guiview.textfield.SellStocksPanel;
 import view.guiview.textfield.UpdatePortDCAStrategy;
-
 import javax.swing.JFrame;
 import javax.swing.JFileChooser;
 
